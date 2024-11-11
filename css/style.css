@@ -1,0 +1,48 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+main {
+    display: block;
+    min-height: 100%;
+    overflow: auto;
+    padding: 1em 0;
+}
+
+main * {
+    font-family: comic 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2021/07/04/19/58/sunset-6387462_1280.jpg);
+    /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.card {
+    animation: fadeIn 2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
