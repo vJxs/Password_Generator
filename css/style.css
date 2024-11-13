@@ -17,8 +17,7 @@ main * {
 }
 
 body {
-    background-image: url(https://cdn.pixabay.com/photo/2021/07/04/19/58/sunset-6387462_1280.jpg);
-    /* Replace with your image URL */
+    background-image: url(https://cdn.pixabay.com/photo/2015/03/09/18/34/beach-666122_1280.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
